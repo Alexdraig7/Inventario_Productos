@@ -144,7 +144,7 @@ while True:
             try:
                 prod_aux = input("Indique el nombre del Producto: ")
                 prod_aux = prod_aux.capitalize()
-                mensaje = eliminar(prod_aux)
+                mensaje = modificar(prod_aux)
                 print(mensaje)
                 print("")
                 valid = False
